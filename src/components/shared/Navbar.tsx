@@ -45,7 +45,7 @@ export default function Navbar() {
   };
 
   return (
-    <header className="sticky top-0 z-50 w-full lg:py-[26px] py-3 bg-primary text-white">
+    <header className="sticky top-0 z-50 w-full lg:py-[26px] py-2 bg-primary text-white">
       <div className="container flex h-16 items-center justify-between px-4 md:px-6">
         <Link href="/" className="flex items-center gap-2">
           <Image
@@ -109,7 +109,7 @@ export default function Navbar() {
                 size="icon"
                 className="text-white hover:bg-white/10 hover:text-white"
               >
-                <Menu className="h-5 w-5" />
+                <Menu className="menu-icon" />
                 <span className="sr-only">Open menu</span>
               </Button>
             </SheetTrigger>
