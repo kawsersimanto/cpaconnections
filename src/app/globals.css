@@ -34,7 +34,8 @@
     max-width: none;
   }
   @media (width >= 1440px) {
-    max-width: 1440px;
+    max-width: 1500px;
+    padding-inline: 1rem;
   }
 }
 

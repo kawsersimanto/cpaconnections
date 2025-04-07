@@ -1,4 +1,4 @@
-import Header from "@/components/shared/Header";
+import Header from "@/components/shared/Navbar";
 import Sidebar from "@/components/shared/Sidebar";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
