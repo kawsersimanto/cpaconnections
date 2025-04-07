@@ -1,5 +1,5 @@
 import ReduxProvider from "@/redux/provider/ReduxProvider";
-import type { Metadata } from "next";
+import { Metadata } from "next";
 import { Inter, Rubik } from "next/font/google";
 import { Toaster } from "sonner";
 import "./globals.css";
@@ -15,8 +15,8 @@ const rubik = Rubik({
 });
 
 export const metadata: Metadata = {
-  title: "Starter kit",
-  description: "starter kit for nextjs with redux and redux persist",
+  title: "BWEAL | Empowering Communities Building Wealth",
+  description: "Empowering Communities Building Wealth",
 };
 
 export default function RootLayout({
