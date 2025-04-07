@@ -58,6 +58,7 @@
   h5,
   h6 {
     font-family: var(--font-primary);
+    line-height: 1.2em;
   }
   body {
     font-family: var(--font-secondary) !important;

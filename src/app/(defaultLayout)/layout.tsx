@@ -1,3 +1,4 @@
+import About from "@/components/home/About";
 import Overview from "@/components/home/Overview";
 import Footer from "@/components/shared/Footer";
 import Navbar from "@/components/shared/Navbar";
@@ -15,6 +16,7 @@ const CommonLayout = ({ children }: { children: React.ReactNode }) => {
       <Navbar />
       {children}
       <Overview />
+      <About />
       <Newsletter />
       <Footer />
     </>
