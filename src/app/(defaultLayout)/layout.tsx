@@ -1,3 +1,5 @@
+import Footer from "@/components/shared/Footer";
+import Navbar from "@/components/shared/Navbar";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -8,7 +10,9 @@ export const metadata: Metadata = {
 const CommonLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
-      <div>{children}</div>
+      <Navbar />
+      {children}
+      <Footer />
     </>
   );
 };
