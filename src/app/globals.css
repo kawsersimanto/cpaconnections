@@ -3,17 +3,22 @@
 
 @custom-variant dark (&:is(.dark *));
 
-
 @theme {
   /* Light Theme */
-  --color-background: #F5F7FA;
-  --color-foreground: #1A1A1A;
-  --color-primary: #2563EB;
-  --color-secondary: #1E40AF;
-  --color-success: #22C55E;
+  --color-background: #f5f7fa;
+  --color-foreground: #1a1a1a;
+  --color-primary: #23265b;
+  --color-primary-900: #33335a;
+  --color-gray-100: #5e5e5e;
+  --color-gray-200: #888;
+  --color-gray-300: #efefef;
+  --color-secondary: #1e40af;
+  --color-success: #386841;
   --color-info: #90e0ef;
-  --color-warning: #FACC15;
-  --color-danger: #d7191c;
+  --color-warning: #ffcb32;
+  --color-danger: #d72430;
+  --font-primary: "Rubik", sans-serif;
+  --font-secondary: "Inter", sans-serif;
 }
 
 @utility flex-center {
@@ -44,4 +49,15 @@
 }
 
 @layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-primary);
+  }
+  body {
+    font-family: var(--font-secondary) !important;
+  }
 }
