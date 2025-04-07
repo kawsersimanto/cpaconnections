@@ -37,7 +37,7 @@ const Banner = () => {
               </Link>
             </div>
           </div>
-          <div className="relative z-[1] flex items-center justify-end">
+          <div className="relative z-[1] flex items-center md:justify-end justify-center">
             <Image
               src={bannerMainImg}
               height={600}

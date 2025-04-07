@@ -19,6 +19,7 @@
   --color-danger: #d72430;
   --font-primary: "Rubik", sans-serif;
   --font-secondary: "Inter", sans-serif;
+  --shadow-overview: 0px 0px 8px 1px rgba(0, 0, 0, 0.1);
 }
 
 @utility flex-center {
