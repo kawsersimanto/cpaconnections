@@ -3,6 +3,7 @@ import Banner from "@/components/home/Banner";
 import Events from "@/components/home/Events";
 import Overview from "@/components/home/Overview";
 import Testimonial from "@/components/home/Testimonial";
+import PodcastsSection from "@/components/podcasts/PodcastsSection";
 import Newsletter from "@/components/shared/Newsletter";
 
 const CommonLayoutHomePage = () => {
@@ -13,6 +14,7 @@ const CommonLayoutHomePage = () => {
       <About />
       <Events />
       <Testimonial />
+      <PodcastsSection />
       <Newsletter />
     </>
   );
