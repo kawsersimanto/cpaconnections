@@ -1,4 +1,5 @@
 import { eventsData } from "@/constants/eventData";
+import Link from "next/link";
 import EventSection from "../eventSection/EventSection";
 
 const Events = () => {
@@ -18,6 +19,14 @@ const Events = () => {
           </p>
         </div>
         <EventSection events={eventsData} />
+        <div className="mt-[56px] flex justify-center">
+          <Link
+            href="/"
+            className="py-[15px] px-[31px] border border-primary text-primary transition-colors hover:bg-primary duration-300 ease-in-out hover:text-white text-center"
+          >
+            Explore All
+          </Link>
+        </div>
       </div>
     </section>
   );
